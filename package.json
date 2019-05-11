@@ -1,0 +1,28 @@
+{
+  "name": "sight-validator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MeloGuo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "clean-webpack-plugin": "^2.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
